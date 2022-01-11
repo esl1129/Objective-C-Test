@@ -6,6 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
+
 
 @interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
 
