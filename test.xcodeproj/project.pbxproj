@@ -17,6 +17,7 @@
 		6C58E7082773377500EBAB86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C58E7072773377500EBAB86 /* Assets.xcassets */; };
 		6C58E70B2773377500EBAB86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C58E7092773377500EBAB86 /* LaunchScreen.storyboard */; };
 		6C58E70E2773377500EBAB86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C58E70D2773377500EBAB86 /* main.m */; };
+		6CF2260A279015DD00FB6F9F /* ViewController_0113_gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF22609279015DD00FB6F9F /* ViewController_0113_gesture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		6C58E70A2773377500EBAB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C58E70C2773377500EBAB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C58E70D2773377500EBAB86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CF22608279015DD00FB6F9F /* ViewController_0113_gesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController_0113_gesture.h; sourceTree = "<group>"; };
+		6CF22609279015DD00FB6F9F /* ViewController_0113_gesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController_0113_gesture.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 		6C58E6F72773377400EBAB86 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				6CF22607279015BE00FB6F9F /* 0113_gesture_Test */,
 				6C58E6F82773377400EBAB86 /* AppDelegate.h */,
 				6C58E6F92773377400EBAB86 /* AppDelegate.m */,
 				6C58E6FB2773377400EBAB86 /* SceneDelegate.h */,
@@ -101,6 +105,15 @@
 				6C58E7042773377400EBAB86 /* test.xcdatamodeld */,
 			);
 			path = test;
+			sourceTree = "<group>";
+		};
+		6CF22607279015BE00FB6F9F /* 0113_gesture_Test */ = {
+			isa = PBXGroup;
+			children = (
+				6CF22608279015DD00FB6F9F /* ViewController_0113_gesture.h */,
+				6CF22609279015DD00FB6F9F /* ViewController_0113_gesture.m */,
+			);
+			path = 0113_gesture_Test;
 			sourceTree = "<group>";
 		};
 		6CF9F3E927786947000F7DFC /* 1223_scroll_Test */ = {
@@ -183,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C58E70E2773377500EBAB86 /* main.m in Sources */,
+				6CF2260A279015DD00FB6F9F /* ViewController_0113_gesture.m in Sources */,
 				6C58E7002773377400EBAB86 /* ViewController_1223_scroll.m in Sources */,
 				6C58E7062773377400EBAB86 /* test.xcdatamodeld in Sources */,
 				6C0C6C17278D79450063D48C /* ViewController_0111_touch.m in Sources */,
